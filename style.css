@@ -560,31 +560,34 @@
         width: 111px;
         height: 163px;
         margin: 0;
+        transform: scale(1.25);
       }
       .ux2 a img {
         width: 68px;
         height: 140px;
         margin: 0;
-        z-index: -3;
+        transform: scale(1.5);
       }
       .ux3 a img {
         width: 240px;
         height: 125px;
+        transform: scale(1.5);
       }
     
       .ui1 a img {
         width: 240px;
         height: 125px;
-       
+       transform: scale(1.25);
       }
       .ui2 a img {
         width: 68px;
         height: 140px;
-        
+        transform: scale(1.5);
       }
       .ui3 a img {
         width: 200px;
         height: 112px;
+        transform: scale(1.5);
       }
 
     .about {
@@ -736,4 +739,8 @@
         transform: translateY(-3px);
         box-shadow: 0 2px 40px #ffffff15;
        }
+
+    .img:hover {
+  transform: translateY(-3px) scale(1.5);
+ }
   }
