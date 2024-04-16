@@ -189,7 +189,7 @@
   }
 
   .ui1 a img {
-    width: 400px;
+    width: 370px;
     height: 210px;
     display: flex;
     justify-content: center;
@@ -577,7 +577,7 @@
       }
     
       .ui1 a img {
-        width: 240px;
+        width: 200px;
         height: 125px;
        transform: scale(1.25);
       }
